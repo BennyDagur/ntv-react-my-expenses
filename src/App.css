@@ -2,15 +2,30 @@
   text-align: center;
 }
 
+.Main-text {
+  margin-bottom: 2px;
+}
+
+.Submit-button {
+  font-size: large;
+  margin-top: 10px;
+  width: 150px;
+  height: 40px;
+}
+
+.Label-values {
+  font-size: medium;
+  margin-top: 6px;
+}
+
+.Input-values {
+  font-size: large;
+  margin-top: 6px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -26,13 +41,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
